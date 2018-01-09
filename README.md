@@ -12,5 +12,8 @@ For the first Lab the main aim and objective was to create a brushless motor con
 - 2 Nails
 - 4 neodymium magnets
 
-The first step to building the motor was to make a comutator. The comutator allows us to continue to provide a force in one dirrection, this is achieved by switching the polarisation of the circuit. The comutator is comprised of two seperate pieces of copper tape which are the same size and placed onto one side of the cork with a small gap inbetween. Once stuck in place we then inserted one nail into either side of the cork to act as an axle. We then proceeded to wrap the length of wire 
+The first step to building the motor was to make a comutator. The comutator allows us to continue to provide a force in one dirrection, this is achieved by switching the polarisation of the circuit. The comutator is comprised of two seperate pieces of copper tape which are the same size and placed onto one side of the cork with a small gap inbetween. Once stuck in place we then inserted one nail into either side of the cork to act as an axle. We then proceeded to wrap the length of wire around the cork, making sure to keep count of the number of turns and to keep either end of the wire expossed.
+
+
+The total numnber of turns on the motor was 125 turns, and once fully wraped we used a piece of  
 
