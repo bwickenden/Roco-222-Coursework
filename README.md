@@ -15,5 +15,8 @@ For the first Lab the main aim and objective was to create a brushless motor con
 The first step to building the motor was to make a comutator. The comutator allows us to continue to provide a force in one dirrection, this is achieved by switching the polarisation of the circuit. The comutator is comprised of two seperate pieces of copper tape which are the same size and placed onto one side of the cork with a small gap inbetween. Once stuck in place we then inserted one nail into either side of the cork to act as an axle. We then proceeded to wrap the length of wire around the cork, making sure to keep count of the number of turns and to keep either end of the wire expossed.
 
 ![Comutator](https://github.com/bwickenden/Roco-222-Coursework/blob/master/Motor%201.jpg)
-The total numnber of turns on the motor was 125 turns, and once fully wraped we used a piece of  
+
+The total numnber of turns on the motor was 125 turns, and once fully wraped we used a piece of sandpaper to scratch off the enamel so then the wire is able to conduct a current. Then we soldered each end of the wire onto one piece of the comutator each. After soldering we used a multi metre to test the connection and then took a reading of the resitance of the wire which we found to be 7.3ohms. Once this step was complete the intial build of the motor was finished. 
+
+
 
