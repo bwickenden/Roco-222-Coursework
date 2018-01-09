@@ -1,1 +1,16 @@
 # Roco-222-Coursework
+
+## DC Brushless Motor:Part 1
+
+For the first Lab the main aim and objective was to create a brushless motor consisting of one coil of wire. For this task we were provided with the following materials:
+- 10m of copper wire 
+- 1 cork 
+- Enameled Copper tape
+- 1 wodden base 
+- 4 washers 
+- 4 screws
+- 2 Nails
+- 4 neodymium magnets
+
+The first step to building the motor was to make a comutator. The comutator allows us to continue to provide a force in one dirrection, this is achieved by switching the polarisation of the circuit. The comutator is comprised of two seperate pieces of copper tape which are the same size and placed onto one side of the cork with a small gap inbetween. Once stuck in place we then inserted one nail into either side of the cork to act as an axle. We then proceeded to wrap the length of wire 
+
