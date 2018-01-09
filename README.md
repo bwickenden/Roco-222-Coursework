@@ -21,7 +21,7 @@ The total numnber of turns on the motor was 125 turns, and once fully wraped we 
 
 ![Winding the coil](https://github.com/bwickenden/Roco-222-Coursework/blob/master/Winding%20the%20coil.jpg)
 
-After the motor was finshed we then had to build a base that the motor would be mounted onto. We used washers and screws to attach two large paper clips to either side of the wooden base which the motor would be able to rest on. We then attached two other paper clip to the other two sied of the base where our magnets would be attached to allowing our motor to be inbetween our mangnets. 
+After the motor was finshed we then had to build a base that the motor would be mounted onto. We used washers and screws to attach two large paper clips to either side of the wooden base which the motor would be able to rest on. We then attached two other paper clip to the other two sied of the base where our magnets would be attached to allowing our motor to be inbetween our mangnets. Two large wires were then attached to the power supply which were then used as the brushes for the motor. 
 
 
 
