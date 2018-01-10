@@ -70,7 +70,13 @@ delay(2);
 digitalWrite(9, LOW); 
 delay(78); 
 ```
-After we had achieved the basics of servo control we then moved on to create a 3D model of our Robotic arm. This was the first time that we had 
+After we had achieved the basics of servo control we then moved on to create a 3D model of our Robotic arm. This was the first time that we had used AutoDesk Fusion 360 so this task at first was quite difficult. We went into the task with the aim to make a compact robotic arm that wouldn't take up too much space and that could be quite cheap to reproduce. In the end we settled with a design that is shown bellow. We were very happy with the outcome but there are a few improvements that could be made. Firstly we didn't give enough leeway for the servos to fit the way that we wanted. This then lead to hours of filing down the edeges of the model. Secondly the model is too light and would benefit from being mounted onto a wooden base for extra support as if you were to move the arm of the robot too quicly you could throw it off balance. Lastly I would have liked to added a small motor on the end of the arm which could be used to create a crane like function. It would have been nice to add however it wasn't practical at the time to implement. 
+
+![Servo](https://github.com/bwickenden/Roco-222-Coursework/blob/master/Robotic_Arm.stl)
+![Crane Arm](https://github.com/bwickenden/Roco-222-Coursework/blob/master/Crane%20Arm.stl)
+![Main Body](https://github.com/bwickenden/Roco-222-Coursework/blob/master/Arm.stl)
+![Base](https://github.com/bwickenden/Roco-222-Coursework/blob/master/Main%20Body.stl)
+![Finished Robot](https://github.com/bwickenden/Roco-222-Coursework/blob/master/Finished%20Robot.jpg)
 ## Robotic Arm mini-project: Servo control
 
 
