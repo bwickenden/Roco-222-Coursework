@@ -51,6 +51,18 @@ In addition to these two designs we also created serveral others which explored 
 
 ![Other Motors](https://github.com/bwickenden/Roco-222-Coursework/blob/master/Variations.jpg)
 
+## Encoder
+
+## Motor Control with Arduino
+
+## Stepper Motors
+
+## Robotic Arm mini-project: Servo control
+
+For this part of the project we had to design and build a robotic arm that had 2 degrees of freadom. The first part of this task was learning how to control the two servos
+
+## Robotic Arm mini-project: Servo control
+
 
 
 
