@@ -1,6 +1,6 @@
 # Roco-222-Coursework
 
-## DC Brushless Motor:Part 1
+## DC Brushless Motor: Part 1
 
 For the first Lab the main aim and objective was to create a brushless motor consisting of one coil of wire. For this task we were provided with the following materials:
 - 10m of copper wire 
@@ -77,6 +77,39 @@ After we had achieved the basics of servo control we then moved on to create a 3
 ![Main Body](https://github.com/bwickenden/Roco-222-Coursework/blob/master/Arm.stl)
 ![Base](https://github.com/bwickenden/Roco-222-Coursework/blob/master/Main%20Body.stl)
 ![Finished Robot](https://github.com/bwickenden/Roco-222-Coursework/blob/master/Finished%20Robot.jpg)
+
+Now that we have a finished and printed robotic arm we then went on to write some code which would enable us to control the robotic arm using potentiometers. Listed bellow is the code that we went on to use in order to have manual control over the servos. 
+```
+#include <Servo.h>
+Servo servo1;
+Servo servo2;
+int potpin1 = 0;
+int potpin2 = 5;
+int val1;
+int val2;
+void setup()
+{
+servo1.attach(9);
+servo2.attach(7);
+}
+void loop()
+{
+val1 = analogRead(potpin1); 
+val2 = analogRead(potpin2); 
+                 
+val1 = map(val1, 0, 1023, 0, 179); 
+val2 = map(val2, 0, 1023, 0, 179); 
+                  
+servo1.write(val1); 
+servo2.write(val2);   
+         
+delay(1);      
+}
+```
+This part of the work was a lot of fun and we both really enjoyed it as it was at this moment that you could really see your robotic arm working exactly how you invisioned it when designing it. We made a few changes in relation to the potentiometers, at first we soldered them onto a piece of veroboard but we then later decided that it would be eaiser to have the potentiometers plugged into a breadboard incase we wanted to make any changes. 
+
+![Potentiometer control](https://github.com/bwickenden/Roco-222-Coursework/blob/master/Potentiometer%20control.mp4)
+
 ## Robotic Arm mini-project: Servo control
 
 
