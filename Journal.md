@@ -59,8 +59,18 @@ In addition to these two designs we also created serveral others which explored 
 
 ## Robotic Arm mini-project: Servo control
 
-For this part of the project we had to design and build a robotic arm that had 2 degrees of freadom. The first part of this task was learning how to control the two servos
-
+For this part of the project we had to design and build a robotic arm that had 2 degrees of freadom. The first part of this task was learning how to control the two servos. To do this at first we used very basic code which moved the servos in a set pattern but didn't provide any additional control once the code was loaded. Below I have provided a snippit of the code that we used for this task. 
+```
+digitalWrite(9, HIGH); 
+delay(2);
+digitalWrite(9, LOW); 
+delay(78);
+digitalWrite(9, HIGH); 
+delay(2);
+digitalWrite(9, LOW); 
+delay(78); 
+```
+After we had achieved the basics of servo control we then moved on to create a 3D model of our Robotic arm. This was the first time that we had 
 ## Robotic Arm mini-project: Servo control
 
 
