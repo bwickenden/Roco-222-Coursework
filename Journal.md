@@ -45,6 +45,7 @@ Due to this and the other two points previously stated we decided to continue wi
 ![3D Printed Motor 1](https://github.com/bwickenden/Roco-222-Coursework/blob/master/3D%20Printed%201.jpg)
 ![3D Printed Motor 2](https://github.com/bwickenden/Roco-222-Coursework/blob/master/3D%20Printed%202.jpg)
 ![3D Printed Motor 3](https://github.com/bwickenden/Roco-222-Coursework/blob/master/3D%20Printed%203.jpg)
+![3D Printed Model](https://github.com/bwickenden/Roco-222-Coursework/blob/master/Motor(Ben%20and%20Dan).stl)
 
 In addition to these two designs we also created serveral others which explored a variety of different options, however we decided to mainlty focus on the other two designs. 
 
