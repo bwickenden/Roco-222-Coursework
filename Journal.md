@@ -110,7 +110,7 @@ This part of the work was a lot of fun and we both really enjoyed it as it was a
 
 ![Potentiometer control](https://github.com/bwickenden/Roco-222-Coursework/blob/master/Potentiometer%20control.mp4)
 
-## Robotic Arm mini-project: Servo control
+## Robotic Arm mini-project: ROS
 
 The next part of our project was to  
 
