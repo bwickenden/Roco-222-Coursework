@@ -62,8 +62,36 @@ We did have a few problems with this task and stuggled to get the encoder workin
 2. It was quite difficult to keep the encoder in place and so we think that this might have caused some of the issues that we had when trying to get some results. 
 
 ## Motor Control with Arduino
+For this task added the Motor Shield and then we implimented the code give to control the small hobby motor. We found that by changing the delays in the code we could change how long the motor span for, with the implementation of the analouge values we could change the speed and that the direction was casued by setting the pins high and low.
+```void setup() {
+//Setup Channel A
+pinMode(12, OUTPUT); //Initiates Motor Channel A pin
+pinMode(9, OUTPUT); //Initiates Brake Channel A pin
+}
+void loop(){
+Page 4 of 6
+Practical 3: Controlling the motor
+//forward @ full speed
+digitalWrite(12, HIGH); //Establishes forward direction of Channel A
+digitalWrite(9, LOW); //Disengage the Brake for Channel A
+analogWrite(3, 255); //Spins the motor on Channel A at full speed
+delay(6000);
+digitalWrite(9, HIGH); //Eengage the Brake for Channel A
+delay(1000);
+//backward @ half speed
+digitalWrite(12, LOW); //Establishes backward direction of Channel A
+digitalWrite(9, LOW); //Disengage the Brake for Channel A
+analogWrite(3, 123); //Spins the motor on Channel A at half speed
+delay(6000);
+digitalWrite(9, HIGH); //Eengage the Brake for Channel A
+delay(1000);
+}
+```
+![Hshield](https://github.com/bwickenden/Roco-222-Coursework/blob/master/Hshield.jpg)
 
 ## Stepper Motors
+
+
 
 ## Robotic Arm mini-project: Servo control
 
@@ -160,11 +188,12 @@ void loop(){
 }
 
 ```
-The next step was to create a 3D model using Rviz, to do this we had to load and modify a urdf file. 
+The next step was to create a 3D model using Rviz, to do this we had to load and modify a urdf file. This task was quite difficult as we had to design the entire model only using code which was a challenge but over all it went quite well and we managed to create a model which ressembled our model.
 
 ![Original Model](https://github.com/bwickenden/Roco-222-Coursework/blob/master/Rviz%20Original.png)
 ![Modified Model](https://github.com/bwickenden/Roco-222-Coursework/blob/master/Rviz%20Mod.mp4)
+![Modified URDF File](https://github.com/bwickenden/Roco-222-Coursework/blob/master/URDF%20file.PNG)
 
 
-
+Control the servo motors from the robot's joint state: Unfortunately we ran out of time and wasn't able to get this part working. 
 
