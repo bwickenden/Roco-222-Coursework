@@ -112,6 +112,8 @@ This part of the work was a lot of fun and we both really enjoyed it as it was a
 
 ## Robotic Arm mini-project: Servo control
 
+The next part of our project was to  
+
 
 
 
