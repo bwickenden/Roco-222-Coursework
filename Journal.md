@@ -57,6 +57,10 @@ This task was all about trying to measure the rpm of our motor. The first part w
 ![Encoder on first Motor](https://github.com/bwickenden/Roco-222-Coursework/blob/master/Encoder%20on%20motor.jpg)
 ![Encoder on 3D printed Motor](https://github.com/bwickenden/Roco-222-Coursework/blob/master/Encoder%203D%20printed%20model.jpg)
 
+We did have a few problems with this task and stuggled to get the encoder working properly, we think that it was down to two point. 
+1. The ciruit had a lose connection somewhere which caused unreliable results. 
+2. It was quite difficult to keep the encoder in place and so we think that this might have caused some of the issues that we had when trying to get some results. 
+
 ## Motor Control with Arduino
 
 ## Stepper Motors
@@ -116,8 +120,50 @@ This part of the work was a lot of fun and we both really enjoyed it as it was a
 
 ## Robotic Arm mini-project: ROS
 
-The next part of our project was to  
+The next part of our project was to learn how use ROS to control our robotic arm. The first step was to configure the Arduino so then it was connected with ROS. After we had conneceted the Arduino we wrote some code which would allow us to control the robotic arm using the terminal. 
 
+```
+#include <ros.h>
+#include <std_msgs/UInt16.h>
+#include <Servo.h>
+
+using namespace ros;
+
+NodeHandle nh;
+Servo servo1;
+Servo servo2;
+
+void cb1( const std_msgs::UInt16& msg){
+  servo1.write(msg.data);
+}
+
+
+void cb2( const std_msgs::UInt16& msg){
+  servo2.write(msg.data);
+}
+
+Subscriber<std_msgs::UInt16> sub1("servo1", cb1);
+Subscriber<std_msgs::UInt16> sub2("servo2", cb2);
+
+void setup(){
+    nh.initNode();
+    nh.subscribe(sub1);
+    nh.subscribe(sub2);
+
+   servo1.attach(9);
+   servo2.attach(7);
+}
+
+void loop(){
+  nh.spinOnce();
+  delay(1);
+}
+
+```
+The next step was to create a 3D model using Rviz, to do this we had to load and modify a urdf file. 
+
+![Original Model](https://github.com/bwickenden/Roco-222-Coursework/blob/master/Rviz%20Original.png)
+![Modified Model](https://github.com/bwickenden/Roco-222-Coursework/blob/master/Rviz%20Mod.mp4)
 
 
 
