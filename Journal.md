@@ -88,9 +88,23 @@ delay(1000);
 }
 ```
 ![Hshield](https://github.com/bwickenden/Roco-222-Coursework/blob/master/Hshield.jpg)
+Due complicatios with the encoder as stated above we were unable to control the motor with the Arduino.
 
 ## Stepper Motors
-
+For this lab we were tasked with we were tasked with wiring up a stepper motor. In order to do this we modified some example code which  I'll provide a snipping of the code bellow. 
+```
+#define DIR_A 12
+#define PWM_A 3
+#define DIR_B 13
+#define PWM_B 11
+const int delayMs = 100;
+void setup() {
+pinMode(DIR_A, OUTPUT);
+pinMode(DIR_B, OUTPUT);
+pinMode(9, OUTPUT); digitalWrite(8, LOW); //No braking ch. A
+pinMode(8, OUTPUT); digitalWrite(8, LOW); //No braking ch. B
+}
+```
 
 
 ## Robotic Arm mini-project: Servo control
