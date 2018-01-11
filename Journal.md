@@ -52,6 +52,10 @@ In addition to these two designs we also created serveral others which explored 
 ![Other Motors](https://github.com/bwickenden/Roco-222-Coursework/blob/master/Variations.jpg)
 
 ## Encoder
+This task was all about trying to measure the rpm of our motor. The first part was to build the physical ciruit of the encoder which was comprised of an Infrared transmitter and reiever. The way in which the device counted the rotations of the motor was by detecting when no signal was revcieved. This was implemented with motor by placing a cardboard disk onto the axel which had a segment cut out of it which would be used to detect one rotation. 
+![Encoder circuit](https://github.com/bwickenden/Roco-222-Coursework/blob/master/Encoder.jpg)
+![Encoder on first Motor](https://github.com/bwickenden/Roco-222-Coursework/blob/master/Encoder%20on%20motor.jpg)
+![Encoder on 3D printed Motor](https://github.com/bwickenden/Roco-222-Coursework/blob/master/Encoder%203D%20printed%20model.jpg)
 
 ## Motor Control with Arduino
 
